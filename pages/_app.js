@@ -1,7 +1,7 @@
 import App, {Container} from 'next/app';
 import React from 'react';
 
-export default class MyAPP extends APP {
+export default class MyAPP extends App {
     static async getInitialProps ({
         Component,
         router,
